@@ -25,7 +25,7 @@ var_dump($nascimento);
 
 echo "</br>";
 
-////////////////////////////
+//////////////////////////////
 
 //TIPOS ESPECIAIS
 
@@ -35,4 +35,7 @@ var_dump($arquivo);
 
 $nulo = NULL;
 $vazio = "";
+
+//////////////////////////////
+
 
