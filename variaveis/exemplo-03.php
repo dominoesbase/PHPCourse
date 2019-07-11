@@ -1,5 +1,6 @@
 <?php
 
+//////////////////////////////
 // TIPOS BASICOS
 
 $nome = "HCode";
@@ -35,6 +36,7 @@ var_dump($arquivo);
 
 $nulo = NULL;
 $vazio = "";
+echo "</br>";
 
 //////////////////////////////
 
