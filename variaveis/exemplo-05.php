@@ -9,7 +9,7 @@
 
   }
   else {
-  	echo "Necessita inserir o seu nome";
+  	echo "O nome nao esta associado!";
   }
   
 
