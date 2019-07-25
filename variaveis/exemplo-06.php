@@ -29,7 +29,30 @@
   	echo ++$valorNumerico;
   }
 
-  $a = ;
+  function valor2($valorSapinho) {
+  	global $valorSapinho;
+  	unset($valorSapinho);
+  }
 
-  echo "$a";
+  function valor3($valorSapinho) {
+  	global $valorSapinho;
+  	unset($valorSapinho);
+  	echo $valorSapinho;
+  }
+
+  // parte 1
+  $valorNumerico = 17;
+  valor(19);
+  echo '</br>';
+
+
+  // parte 2
+  $valorSapinho = 19;
+  valor2($valorSapinho);
+  echo $valorSapinho;
+
+  // parte 3
+  valor3($valorSapinho);  
+
+
 ?>
