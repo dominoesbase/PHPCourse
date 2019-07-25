@@ -29,7 +29,7 @@
   	echo ++$valorNumerico;
   }
 
-  valor(19);
+  $a = ;
 
-
+  echo "$a";
 ?>
