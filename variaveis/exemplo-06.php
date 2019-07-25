@@ -26,7 +26,7 @@
 
   function valor($valorNumerico) {
   	global $valorNumerico;
-  	echo ++$valorNumerico;
+  	echo $valorNumerico++;
   }
 
   function valor2($valorSapinho) {
