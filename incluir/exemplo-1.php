@@ -8,6 +8,7 @@ echo "Hoje é dia " . data_atual() . " !";
 echo "</br>";
 
 // teste simples para a chamada do ficheiro form.php
+// teste simples para a chamada do ficheiro form.php
 
 echo testar_chamada_form();
 
