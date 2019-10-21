@@ -33,14 +33,24 @@ echo saudacao("","");
 echo saudacao("Sapinho");
 echo saudacao("");
 
+function dados($nome, $idade = 18) {
 
+	return "Nome: $nome ||| Idade: $idade </br>";
 
+}
 
+echo dados("Jorge", 90);
+echo dados("Jorge","");
 
+function dadosPrivados($nome = "Nao Definido", $idade = 18, $motivo) {
 
+	return "NOME: $nome ||| IDADE: $idade ||| MOTIVO: $motivo";
 
+}
 
+//echo dadosPrivados("Nao existe motivo para colocar");
 
+echo dadosPrivados("Jorge", 19, "Motivo ainda esta por apurar");
 
 
  ?>
