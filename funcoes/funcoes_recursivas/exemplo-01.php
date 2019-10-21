@@ -64,7 +64,7 @@ function exibe($cargos) {
 			$html .= exibe($cargo["subordinados"]);
 
 		}
-
+		
 		$html .= "</li>";
 	}
 
